@@ -1,0 +1,21 @@
+---
+const platform = "github";
+const username = "haroldfandino";
+const webpage = "https://www.haroldfandino.com/"
+
+import Social from './social.astro';
+---
+
+<style>
+  footer {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+</style>
+
+<footer>
+  <p>Learn more about my projects on <Social platform="instagram" username="haroldfandino" /></p>
+  <p>Visit my personal website: <Social platform="haroldfandino" username="" /></p>
+  <p>Here's my X account: <Social platform="twitter" username="haroldfandino" /></p> 
+</footer>
